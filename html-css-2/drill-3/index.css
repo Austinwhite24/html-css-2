@@ -1,0 +1,61 @@
+#topgrey {
+    /* position: fixed; */
+    height: 100px;
+    width: 1000px;
+    background-color: lightgrey;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+
+
+}
+#bluebox{
+   
+    background-color: blue;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    
+}
+#text{
+    /* position: relative; */
+    top: 120px;
+    font-size: 13px;
+}
+#colors {
+    height: 1000px;
+    width: 1000px;
+    flex-direction: column;
+}
+#firstcolor {
+    background-color: blue;
+    height: 250px;
+}
+#secondcolor{
+    background-color: aquamarine;
+    height: 250px;
+
+}
+#thirdcolor {
+    background-color: rgb(230, 230, 137);
+    height: 250px;
+}
+#fourthcolor{
+    background-color: yellow;
+    height: 250px;
+}
+#question{
+    position: sticky;
+    bottom: 20px;
+    left: 1000px;
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

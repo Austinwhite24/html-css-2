@@ -1,0 +1,88 @@
+#topstack {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    background-color: white;
+    border: black 3px solid;
+    align-items: flex-end;
+    display: flex;
+}
+#leftbox {
+    position: absolute;
+    background-color: purple;
+    height: 150px;
+    width: 50px;
+    bottom: 10px;
+    left: 10px;
+}
+#middlebox {
+    position: absolute;
+    background-color: green;
+    height: 180px;
+    width: 300px;
+    left: 100px;
+    top: 10px;
+    /* justify-content: space-evenly; */
+    
+
+}
+.dot {
+    position: absolute;
+    background-color: aqua;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    left: 440px;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#middlestack {
+    position: absolute;
+    border: black 3px dotted;
+    background-color: white;
+    height: 200px;
+    width: 900px;
+    
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+    top: 250px;
+}
+#yellow-middle {
+    position: absolute;
+    height: 130px;
+    width: 800px;
+    background-color: yellow;
+    top: 35px;
+    left: 30px;
+    /* margin-left: 0px; */
+    /* border: black 5px solid; */
+    box-shadow:  10px 10px 10px black;
+}
+
+#hellofriends {
+    position: absolute;
+    left: 225px;
+    top: 480px;
+    background-color: white;
+    border: lightgray 1px solid;
+    display: flex;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-size: 30px;
+    /* align-self: center; */
+    
+}
+/* h1 {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+} */
