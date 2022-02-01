@@ -1,0 +1,36 @@
+#topbox {
+    position: fixed;
+    background-color: gray;
+    height: 100px;
+    width: 1200px;
+    top: 0px;
+    left: 0px;
+    
+    
+}
+#leftbox {
+    position: fixed;
+    background-color: lightgray;
+    top: 100px;
+    left: 0px;
+    height: 1000px;
+    width: 120px;
+}
+#rightbox {
+    position: fixed;
+    background-color: lightgrey;
+    top: 100px;
+    right: 0px;
+    height: 1000px;
+    width: 120px;
+}
+#bottombox {
+    position: fixed;
+    background-color: black;
+    height: 100px;
+    /* width: 1000px; */
+    bottom: 0px;
+    left: 120px;
+    right: 120px;
+
+}
